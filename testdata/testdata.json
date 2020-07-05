@@ -1,0 +1,14 @@
+{
+    "Location": { 
+    "London" : "London, UK",
+    "Paris" :  "Paris, France"
+                },
+    
+     "usernames" : {
+     "valid" : "validname@gmail.com",
+     "invalid" : "invalidname@gmail.com"
+                   }
+    
+    
+    }
+    

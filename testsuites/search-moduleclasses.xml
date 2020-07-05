@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="search-module" verbose="4" >
+	<test thread-count="2" name="search-test-java" parallel="classes">
+		<parameter name="keyword" value="java" />
+		<classes>
+			<class name="tourtests.SearchTest" />
+			<class name="tourtests.SearchTest2" />
+			<class name="tourtests.SearchTest3" />
+			<class name="tourtests.SearchTest4" />
+		</classes>
+
+	</test>
+	
+</suite>
